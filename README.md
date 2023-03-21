@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Jayanth19524
 - 👀 I’m interested in Web Development. 
 - 🌱 I’m currently learning backend web frameworks  
-- 💞️ I’m looking to collaborate on Web development projects 
+- 💞️ I’m looking to collaborate.
 - 📫 How to reach me - gandhamjayanth27@gmail.com
 
 <!---
