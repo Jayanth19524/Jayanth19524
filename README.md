@@ -1,10 +1,66 @@
-- 👋 Hi, I’m @Jayanth19524
-- 👀 I’m interested in Web Development. 
-- 🌱 I’m currently learning backend web frameworks  
-- 💞️ I’m looking to collaborate.
-- 📫 How to reach me - gandhamjayanth27@gmail.com
+<!-- Profile Banner -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hey%20there!%20I'm%20Jayanth%20👋&fontSize=30&fontColor=ffffff&animation=fadeIn)
 
-<!---
-Jayanth19524/Jayanth19524 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+## 🌟 About Me
+💻 Full Stack & Systems Engineer with a love for building **scalable web apps, AI integrations, and space-tech systems**.  
+⚡ Currently working on **AI agent orchestration** & **satellite software**.  
+🌱 Always learning backend frameworks, cloud tech, and performance optimization.  
+✨ Fun fact: I’ve worked on both **AI workflow automation** and **satellite firmware**!  
+
+---
+
+## 🔧 Tech Stack
+
+### 🚀 Languages & Frameworks
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,js,ts,python,cpp,c" />
+  <img src="https://skillicons.dev/icons?i=spring,express,react,angular,nodejs" />
+</p>
+
+### ☁️ Cloud & DevOps
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,git" />
+</p>
+
+### 📡 Other Tools & Interests
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,opencv" />
+</p>
+
+---
+
+## 🏆 Highlights
+- ⚙️ Built an **MCP Server** to integrate AI agents with business workflows.  
+- 🛰 Developed **satellite camera firmware** & a **Ground Station Parser** (Spring Boot).  
+- 🌐 Contributed to **CAE aviation systems** with React + Spring Boot.  
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jayanth19524&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jayanth19524&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+🔹 **[Optical Detection & Path-Finding Robot](#)** – Autonomous navigation with LiDAR & ROS  
+🔹 **[Satellite Ground Station Parser](#)** – Decodes satellite communication data  
+🔹 **[CAE Connect](#)** – Web app for pilot training scheduling  
+
+---
+
+## 🌐 Connect With Me
+<p align="center">
+  <a href="mailto:gandhamjayanth27@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+  <a href="https://www.linkedin.com/in/g-v-s-jayanth-4a7a8b195/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://github.com/Jayanth19524"><img src="https://skillicons.dev/icons?i=github" /></a>
+</p>
+
+---
+
+<!-- Footer -->
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=120&section=footer)
