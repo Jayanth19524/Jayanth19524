@@ -60,14 +60,6 @@
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jayanth19524&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jayanth19524&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
----
-
 ## 🚀 Featured Projects
 🔹 **[Optical Detection & Path-Finding Robot](#)** – Autonomous navigation with LiDAR & ROS 🚗  
 🔹 **[Satellite Ground Station Parser](#)** – Decodes satellite communication data 🛰  
