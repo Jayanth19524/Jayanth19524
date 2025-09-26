@@ -11,6 +11,35 @@
 
 ---
 
+## 💼 Experience
+
+### 🚀 JoyzAI *(Feb 2025 – Present)*
+**Full Stack Developer**
+- Built an **MCP Server** to integrate AI agents with business workflows.  
+- Developed **backend services** in Node.js/Express/MongoDB.  
+- Architected a **real-time logging system** with AWS Kinesis.  
+- Integrated **Razorpay + credit systems** for secure payments.  
+- Contributed to **Angular dashboards** for agent orchestration & payments.  
+
+---
+
+### 🛰 TakeMe2Space *(Oct 2024 – Jan 2025)*
+**Software Engineer**
+- Optimized **satellite camera firmware** for efficient image capture.  
+- Enhanced **Ground Station Parser** (Spring Boot) to decode satellite comms.  
+- Built **3D immersive Angular components** for space mission dashboards.  
+
+---
+
+### 🌐 ZetaOpt *(Jun 2023 – Oct 2024)*
+**Software Engineer**
+- Contributed to **CAE aviation systems** with React + Spring Boot.  
+- Built **backend-for-frontend (BFF)** services with caching for high-performance apps.  
+- Created **CAE Connect**, a scheduling platform for pilots.  
+- Ensured reliability with **unit tests (Mockito)**.  
+
+---
+
 ## 🔧 Tech Stack
 
 ### 🚀 Languages & Frameworks
@@ -31,13 +60,6 @@
 
 ---
 
-## 🏆 Highlights
-- ⚙️ Built an **MCP Server** to integrate AI agents with business workflows.  
-- 🛰 Developed **satellite camera firmware** & a **Ground Station Parser** (Spring Boot).  
-- 🌐 Contributed to **CAE aviation systems** with React + Spring Boot.  
-
----
-
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Jayanth19524&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
@@ -47,9 +69,9 @@
 ---
 
 ## 🚀 Featured Projects
-🔹 **[Optical Detection & Path-Finding Robot](#)** – Autonomous navigation with LiDAR & ROS  
-🔹 **[Satellite Ground Station Parser](#)** – Decodes satellite communication data  
-🔹 **[CAE Connect](#)** – Web app for pilot training scheduling  
+🔹 **[Optical Detection & Path-Finding Robot](#)** – Autonomous navigation with LiDAR & ROS 🚗  
+🔹 **[Satellite Ground Station Parser](#)** – Decodes satellite communication data 🛰  
+🔹 **[CAE Connect](#)** – Web app for pilot training scheduling ✈️  
 
 ---
 
