@@ -1,72 +1,154 @@
-<!-- Banner -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=200&section=header&text=Hi%20there!%20I'm%20Jayanth%20👋&fontSize=35&fontColor=ffffff)
-
----
-
-## 👨‍💻 About Me
-I’m a **Full Stack & Systems Engineer** passionate about building  
-⚡ **scalable web applications**, 🤖 **AI integrations**, and 🛰️ **space-tech systems**.  
-
-- 🌱 Currently learning **advanced backend frameworks & cloud-native systems**  
-- 💼 2+ years of professional experience in **Java, Spring Boot, React, Angular, Node.js**  
-- ✨ Fun fact: I’ve built both **AI workflow automation** and **satellite firmware**!  
-
----
-
-## 💼 Experience
-
-### 🚀 JoyzAI *(Feb 2025 – Present)*  
-*Full Stack Developer*  
-- Designed an **MCP Server** to integrate AI agents with workflows.  
-- Built scalable backend services with **Node.js, Express & MongoDB**.  
-- Architected a **real-time logging system** using AWS Kinesis.  
-- Integrated **Razorpay + credit systems** for secure payments.  
-- Contributed to **Angular dashboards** for AI agent orchestration.  
-
----
-
-### 🛰 TakeMe2Space *(Oct 2024 – Jan 2025)*  
-*Software Engineer*  
-- Optimized **satellite camera firmware** for efficient image capture.  
-- Developed a **Ground Station Parser** in Spring Boot.  
-- Built immersive **3D Angular components** for space mission dashboards.  
-
----
-
-### 🌐 ZetaOpt *(Jun 2023 – Oct 2024)*  
-*Software Engineer*  
-- Worked on **CAE aviation systems** using React & Spring Boot.  
-- Built high-performance **BFF services** with caching.  
-- Developed **CAE Connect**, a scheduling platform for pilot training.  
-- Wrote **unit tests (Mockito)** to ensure code reliability.  
-
----
-
-## 🛠 Tech Stack
+<!-- CYBERPUNK HEADER -->
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,js,ts,python,cpp,c,spring,express,react,angular,nodejs" /><br/>
-  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,git,mongodb,postgres,opencv" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:00F5FF,50:8A2BE2,100:FF00FF&text=G%20V%20S%20Jayanth&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=Backend+Engineer;AI+Systems+Builder;Computer+Vision+Developer;Space-Tech+Engineer;Building+the+Future+One+System+at+a+Time" />
 </p>
 
 ---
 
-## 🚀 Featured Projects
-- 🤖 **Optical Detection & Path-Finding Robot** – LiDAR + ROS for autonomous navigation  
-- 🛰 **Satellite Ground Station Parser** – Decodes satellite communication data  
-- ✈️ **CAE Connect** – Scheduling platform for pilot training  
+```bash
+> whoami
 
+Name        : G V S Jayanth
+Role        : Software Engineer
+Focus       : AI Systems + Backend Architecture
+Experience  : 2+ Years
+Location    : India
+
+Currently Building:
+  - FaceChain Verify
+  - AI Agent Infrastructure
+  - Blockchain Attestation Systems
+```
 
 ---
 
-## 🌐 Connect With Me
+# ⚡ SYSTEM STATUS
+
+```yaml
+backend:
+  - Spring Boot
+  - Node.js
+  - Express
+  - FastAPI
+
+frontend:
+  - React
+  - Angular
+
+cloud:
+  - AWS
+  - Azure
+  - Docker
+  - Kubernetes
+
+ai:
+  - OpenCV
+  - InsightFace
+  - LangChain
+  - LLM Integrations
+
+specialization:
+  - Computer Vision
+  - Distributed Systems
+  - Space-Tech
+  - Blockchain Verification
+```
+
+---
+
+# 🚀 CURRENT MISSIONS
+
+### 🤖 FaceChain Verify
+
+AI-powered identity verification platform.
+
+```text
+Face Image
+    ↓
+InsightFace
+    ↓
+Web Discovery
+    ↓
+Evidence Collection
+    ↓
+Blockchain Attestation
+```
+
+---
+
+### 🧠 MCP Agent Platform
+
+Building infrastructure for AI agents to communicate with tools,
+services, and workflows.
+
+---
+
+### 🛰 Satellite Systems
+
+Worked on:
+
+* Camera firmware optimization
+* Telemetry parsing
+* Ground station systems
+* Space mission dashboards
+
+---
+
+# 🛠 TECH ARSENAL
+
 <p align="center">
-  <a href="mailto:gandhamjayanth27@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
-  <a href="https://www.linkedin.com/in/g-v-s-jayanth-4a7a8b195/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="https://github.com/Jayanth19524"><img src="https://skillicons.dev/icons?i=github" /></a>
+<img src="https://skillicons.dev/icons?i=java,ts,js,python,cpp,spring,nodejs,express,react,angular,docker,kubernetes,aws,azure,mongodb,postgres,opencv&perline=9"/>
 </p>
 
 ---
 
-<!-- Footer -->
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=120&section=footer)
+# 📊 NEURAL NETWORK STATS
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Jayanth19524&show_icons=true&theme=radical&hide_border=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jayanth19524&layout=compact&theme=radical&hide_border=true"/>
+</p>
+
+---
+
+# 🔥 CONTRIBUTION MATRIX
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jayanth19524&theme=react-dark&hide_border=true&area=true"/>
+</p>
+
+---
+
+# 🌐 NETWORK LINKS
+
+<p align="center">
+  <a href="mailto:gandhamjayanth27@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-FF0080?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+
+  <a href="https://github.com/Jayanth19524">
+    <img src="https://img.shields.io/badge/GitHub-00F5FF?style=for-the-badge&logo=github&logoColor=black"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/g-v-s-jayanth-4a7a8b195/">
+    <img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+
+```diff
++ STATUS: ONLINE
++ BUILDING AI SYSTEMS
++ EXPLORING SPACE TECH
++ SHIPPING CODE
+```
+
+</p>
