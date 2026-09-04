@@ -1,5 +1,8 @@
+<div align="center">
 
+<img src="https://github.com/Jayanth19524/Jayanth19524/raw/main/IMG_3287.JPG" alt="G V S Jayanth" width="200" style="border-radius: 15px; border: 3px solid #00ff41;">
 
+```text
      ██╗ █████╗ ██╗   ██╗ █████╗ ███╗   ██╗████████╗██╗  ██╗
      ██║██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║╚══██╔══╝██║  ██║
      ██║███████║ ╚████╔╝ ███████║██╔██╗ ██║   ██║   ███████║
@@ -10,7 +13,7 @@
 
 ### Software Engineer &bull; Full-Stack &bull; AI &amp; Computer Vision
 
-📍 Hyderabad, India &bull; 3+ Years Experience
+📍 Hyderabad, India &bull; 2+ Years Experience
 
 ```text
 gandhamjayanth27@gmail.com   •   +91 97046 47011
@@ -35,7 +38,7 @@ gandhamjayanth27@gmail.com   •   +91 97046 47011
 ## `$ whoami`
 
 ```bash
-> Software Engineer with 4+ years of experience
+> Software Engineer with 2+ years of experience
 > Full-Stack Developer — Java, JavaScript, React, Angular, Spring Boot, Node.js
 > AI Systems Builder — LangChain, LLMs, MCP Servers, Generative AI Agents
 > Computer Vision Developer — OpenCV, InsightFace
