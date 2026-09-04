@@ -16,7 +16,7 @@
 📍 Hyderabad, India &bull; 2+ Years Experience
 
 ```text
-gandhamjayanth27@gmail.com   •   +91 97046 47011
+gandhamjayanth27@gmail.com   
 ```
 
 <p align="center">
