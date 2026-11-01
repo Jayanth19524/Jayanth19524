@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 245" width="100%" height="245">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="nodeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .header { font-size: 13px; fill: #00ff41; font-weight: 700; letter-spacing: 1.5px; }
+      .year { font-size: 13px; fill: #00f0ff; font-weight: 700; }
+      .org { font-size: 13.5px; fill: #e6edf3; font-weight: 700; }
+      .role { font-size: 11px; fill: #8b949e; }
+      .box { fill: #09131e; stroke: #1b2e44; stroke-width: 1; rx: 6px; }
+      .box-active { fill: #0b1b24; stroke: #00ff41; stroke-width: 1.4; rx: 6px; }
+      .pulse-ring { animation: ringPulse 2s ease-out infinite; }
+      @keyframes ringPulse {
+        0% { r: 7px; opacity: 1; }
+        100% { r: 18px; opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="245" rx="10" fill="#05080d" stroke="#162436" stroke-width="1.5"/>
+
+  <text x="24" y="28" class="mono header">❯ git log --graph --oneline --career-trajectory</text>
+  <text x="876" y="28" text-anchor="end" class="mono" font-size="11" fill="#00f0ff">HEAD -&gt; main (2026)</text>
+  <line x1="20" y1="40" x2="880" y2="40" stroke="#1a2c42" stroke-width="1"/>
+
+  <!-- Main Timeline Track -->
+  <line x1="75" y1="115" x2="825" y2="115" stroke="url(#lineGrad)" stroke-width="3"/>
+
+  <!-- Animated Signal Packet Moving Along Timeline -->
+  <circle cx="75" cy="115" r="4.5" fill="#00ff41" filter="url(#nodeGlow)">
+    <animate attributeName="cx" from="75" to="825" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Node 1: 2022 -->
+  <g transform="translate(95, 115)">
+    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00f0ff" stroke-width="2.5"/>
+    <text x="0" y="-18" text-anchor="middle" class="mono year">2022</text>
+    <rect x="-75" y="18" width="150" height="78" class="box"/>
+    <text x="0" y="40" text-anchor="middle" class="sans org">DS Legends</text>
+    <text x="0" y="58" text-anchor="middle" class="sans role">Mobile Apps Dev</text>
+    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#58a6ff">[APP_ENG]</text>
+  </g>
+
+  <!-- Node 2: 2023 -->
+  <g transform="translate(272, 115)">
+    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00f0ff" stroke-width="2.5"/>
+    <text x="0" y="-18" text-anchor="middle" class="mono year">2023</text>
+    <rect x="-78" y="18" width="156" height="78" class="box"/>
+    <text x="0" y="40" text-anchor="middle" class="sans org">ZetaOpt</text>
+    <text x="0" y="58" text-anchor="middle" class="sans role">CAE Aviation Backend</text>
+    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#58a6ff">[AERO_SYSTEMS]</text>
+  </g>
+
+  <!-- Node 3: 2024 -->
+  <g transform="translate(450, 115)">
+    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00ff41" stroke-width="2.5"/>
+    <text x="0" y="-18" text-anchor="middle" class="mono year">2024</text>
+    <rect x="-80" y="18" width="160" height="78" class="box"/>
+    <text x="0" y="40" text-anchor="middle" class="sans org">TakeMe2Space</text>
+    <text x="0" y="58" text-anchor="middle" class="sans role">Satellite Firmware</text>
+    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#00ff41">[SPACE_TELEMETRY]</text>
+  </g>
+
+  <!-- Node 4: 2025 -->
+  <g transform="translate(628, 115)">
+    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00ff41" stroke-width="2.5"/>
+    <text x="0" y="-18" text-anchor="middle" class="mono year">2025</text>
+    <rect x="-80" y="18" width="160" height="78" class="box"/>
+    <text x="0" y="40" text-anchor="middle" class="sans org">JoyzAI + OCI Cert</text>
+    <text x="0" y="58" text-anchor="middle" class="sans role">AI Agents &amp; MCP Infra</text>
+    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#ffb800">[OCI_ARCHITECT]</text>
+  </g>
+
+  <!-- Node 5: 2026 (Active) -->
+  <g transform="translate(805, 115)">
+    <circle class="pulse-ring" cx="0" cy="0" r="7" fill="none" stroke="#00ff41" stroke-width="2"/>
+    <circle cx="0" cy="0" r="7" fill="#00ff41" filter="url(#nodeGlow)"/>
+    <text x="0" y="-18" text-anchor="middle" class="mono year" style="fill:#00ff41">2026 ●</text>
+    <rect x="-78" y="18" width="156" height="78" class="box-active"/>
+    <text x="0" y="40" text-anchor="middle" class="sans org" style="fill:#00ff41">FaceChain Verify</text>
+    <text x="0" y="58" text-anchor="middle" class="sans role" style="fill:#c9d1d9">AI + CV + Web3 Core</text>
+    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#00ff41">[ACTIVE_BUILD]</text>
+  </g>
+</svg>

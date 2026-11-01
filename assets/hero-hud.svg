@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="100%" height="340">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080d"/>
+      <stop offset="50%" stop-color="#08111a"/>
+      <stop offset="100%" stop-color="#050a10"/>
+    </linearGradient>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#00f0ff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00ff41" stroke-width="0.5" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .title { font-size: 40px; font-weight: 800; fill: #e6edf3; letter-spacing: 3px; }
+      .title-accent { fill: url(#neonGreen); }
+      .subtitle { font-size: 14px; fill: #00f0ff; letter-spacing: 1.4px; font-weight: 600; }
+      .cmd { font-size: 13px; fill: #8b949e; }
+      .val { font-size: 13px; fill: #c9d1d9; }
+      .green { fill: #00ff41; }
+      .cyan { fill: #00f0ff; }
+      .amber { fill: #ffb800; }
+      .hud-label { font-size: 10px; fill: #58a6ff; letter-spacing: 1.5px; }
+      .pill-bg { fill: #0b1622; stroke: #00ff41; stroke-width: 1; stroke-opacity: 0.45; rx: 4px; }
+      .pill-text { font-size: 11px; fill: #00ff41; font-weight: 600; letter-spacing: 0.8px; }
+      .cursor { animation: blink 1s step-end infinite; }
+      .pulse-dot { animation: pulse 2s ease-in-out infinite; }
+      .pulse-fast { animation: pulse 1.2s ease-in-out infinite; }
+      .scanline { animation: scan 6s linear infinite; }
+      .glitch-bar { animation: barShift 4s ease-in-out infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+      @keyframes scan { 0% { transform: translateY(-340px); } 100% { transform: translateY(340px); } }
+      @keyframes barShift { 0%, 100% { width: 120px; } 50% { width: 220px; } }
+    </style>
+  </defs>
+
+  <!-- Outer Frame & Grid -->
+  <rect width="900" height="340" rx="12" fill="url(#bgGrad)" stroke="#1b2a3a" stroke-width="1.5"/>
+  <rect width="900" height="340" rx="12" fill="url(#cyberGrid)"/>
+
+  <!-- Animated Scanline Overlay -->
+  <rect class="scanline" x="0" y="0" width="900" height="90" fill="url(#scanGrad)" pointer-events="none"/>
+
+  <!-- Top Terminal Header Bar -->
+  <path d="M 1 12 Q 1 1 12 1 L 888 1 Q 899 1 899 12 L 899 38 L 1 38 Z" fill="#0b131e" opacity="0.95"/>
+  <line x1="1" y1="38" x2="899" y2="38" stroke="#00ff41" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Window Controls -->
+  <circle cx="22" cy="19" r="5.5" fill="#ff5f56"/>
+  <circle cx="40" cy="19" r="5.5" fill="#ffbd2e"/>
+  <circle cx="58" cy="19" r="5.5" fill="#27c93f"/>
+  <text x="80" y="23" class="mono cmd" font-size="11.5">root@jayanth-node:~/mission-control — zsh [PID: 19524]</text>
+
+  <!-- Top Right Live Status -->
+  <circle class="pulse-dot" cx="748" cy="19" r="4.5" fill="#00ff41" filter="url(#glow)"/>
+  <text x="760" y="23" class="mono green" font-size="11" font-weight="700" letter-spacing="1">SYS_ONLINE // v2026.4</text>
+
+  <!-- Cyber Corner Brackets -->
+  <path d="M 16 54 L 16 74 M 16 54 L 36 54" stroke="#00ff41" stroke-width="2" fill="none"/>
+  <path d="M 16 324 L 16 304 M 16 324 L 36 324" stroke="#00ff41" stroke-width="2" fill="none"/>
+  <path d="M 884 54 L 884 74 M 884 54 L 864 54" stroke="#00f0ff" stroke-width="2" fill="none"/>
+  <path d="M 884 324 L 884 304 M 884 324 L 864 324" stroke="#00f0ff" stroke-width="2" fill="none"/>
+
+  <!-- Left Content Area -->
+  <text x="38" y="76" class="mono hud-label">// IDENTITY_VERIFIED :: CLEARANCE_LEVEL_ARCHITECT</text>
+
+  <!-- Main Name Heading -->
+  <text x="38" y="122" class="sans title">G V S <tspan class="title-accent" filter="url(#glow)">JAYANTH</tspan></text>
+  <rect class="glitch-bar" x="38" y="134" width="160" height="3" rx="1.5" fill="url(#neonGreen)"/>
+
+  <!-- Role Subtitle -->
+  <text x="38" y="162" class="mono subtitle">SOFTWARE ENGINEER  •  FULL-STACK  •  AI &amp; VISION  •  SPACE-TECH</text>
+
+  <!-- Terminal Specs Block -->
+  <g transform="translate(38, 186)" class="mono">
+    <text x="0" y="0" class="cmd"><tspan class="green">❯</tspan> location   <tspan class="val">:: Hyderabad, India [17.3850° N, 78.4867° E]</tspan></text>
+    <text x="0" y="23" class="cmd"><tspan class="green">❯</tspan> experience <tspan class="val">:: </tspan><tspan class="cyan" font-weight="700">2+ Years</tspan><tspan class="val"> Production Engineering (Aviation, Space, AI)</tspan></text>
+    <text x="0" y="46" class="cmd"><tspan class="green">❯</tspan> focus      <tspan class="val">:: Distributed Systems, AI Agents, MCP Servers, Computer Vision</tspan></text>
+    <text x="0" y="69" class="cmd"><tspan class="green">❯</tspan> active_ops <tspan class="val">:: Building </tspan><tspan class="green" font-weight="700">FaceChain Verify</tspan><tspan class="val"> &amp; Agentic Infrastructure</tspan><tspan class="cursor green"> █</tspan></text>
+  </g>
+
+  <!-- Bottom Status Pills -->
+  <g transform="translate(38, 282)" class="mono">
+    <rect x="0" y="0" width="142" height="26" class="pill-bg"/>
+    <circle class="pulse-fast" cx="14" cy="13" r="3.5" fill="#00ff41"/>
+    <text x="24" y="17" class="pill-text">AI_AGENTS: ON</text>
+
+    <rect x="152" y="0" width="154" height="26" class="pill-bg"/>
+    <circle class="pulse-dot" cx="166" cy="13" r="3.5" fill="#00f0ff"/>
+    <text x="176" y="17" class="pill-text" style="fill:#00f0ff">VISION_CV: LOCK</text>
+
+    <rect x="316" y="0" width="154" height="26" class="pill-bg"/>
+    <circle class="pulse-fast" cx="330" cy="13" r="3.5" fill="#00ff41"/>
+    <text x="340" y="17" class="pill-text">SAT_LINK: SYNC</text>
+
+    <rect x="480" y="0" width="156" height="26" class="pill-bg"/>
+    <circle class="pulse-dot" cx="494" cy="13" r="3.5" fill="#ffb800"/>
+    <text x="504" y="17" class="pill-text" style="fill:#ffb800">OCI_ARCH: CERT</text>
+  </g>
+
+  <!-- Right Side: Orbital / Radar Telemetry HUD -->
+  <g transform="translate(755, 178)">
+    <!-- Radar Background Glow -->
+    <circle cx="0" cy="0" r="96" fill="url(#radarGlow)"/>
+    <!-- Concentric Radar Rings -->
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#00ff41" stroke-opacity="0.25" stroke-width="1"/>
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#00f0ff" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="6 4">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#00ff41" stroke-opacity="0.25" stroke-width="1"/>
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#00ff41" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- Crosshairs -->
+    <line x1="-95" y1="0" x2="95" y2="0" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="0" y1="-95" x2="0" y2="95" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
+
+    <!-- Rotating Radar Sweep -->
+    <g>
+      <path d="M 0 0 L 0 -90 A 90 90 0 0 1 63.6 -63.6 Z" fill="#00ff41" fill-opacity="0.18"/>
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#00ff41" stroke-width="2" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Target Blips on Radar -->
+    <g class="pulse-fast">
+      <circle cx="34" cy="-38" r="3.5" fill="#00ff41" filter="url(#glow)"/>
+      <text x="42" y="-35" class="mono green" font-size="8.5">SAT_01</text>
+    </g>
+    <g class="pulse-dot">
+      <circle cx="-46" cy="24" r="3.5" fill="#00f0ff" filter="url(#glow)"/>
+      <text x="-82" y="27" class="mono cyan" font-size="8.5">MCP_AI</text>
+    </g>
+    <g class="pulse-fast">
+      <circle cx="22" cy="52" r="3" fill="#ffb800"/>
+      <text x="29" y="55" class="mono amber" font-size="8.5">CV_NODE</text>
+    </g>
+
+    <!-- Center Core -->
+    <circle cx="0" cy="0" r="4" fill="#00ff41" filter="url(#glow)"/>
+
+    <!-- Radar Readout Footer -->
+    <text x="0" y="112" text-anchor="middle" class="mono green" font-size="9.5" letter-spacing="1.2">TELEMETRY_LOCK: 99.9%</text>
+    <text x="0" y="126" text-anchor="middle" class="mono cmd" font-size="9">UPTIME: 99.98% // 12ms</text>
+  </g>
+</svg>
