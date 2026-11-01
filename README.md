@@ -1,42 +1,25 @@
-<div align="center">
-  <img src="./assets/hero-hud.svg" width="100%" alt="G V S Jayanth — Software Engineer II at Epsilon" />
-</div>
-
-<br/>
+<p align="center"><img src="./assets/hero.svg" width="100%" alt="G V S Jayanth, Software Engineer II at Epsilon" /></p>
 
 <p align="center">
-  <a href="mailto:gandhamjayanth27@gmail.com">
-    <img src="https://img.shields.io/badge/gandhamjayanth27%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/g-v-s-jayanth-4a7a8b195/">
-    <img src="https://img.shields.io/badge/LinkedIn-G_V_S_Jayanth-161b22?style=flat-square&logo=linkedin&logoColor=58a6ff" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/Jayanth19524">
-    <img src="https://img.shields.io/badge/GitHub-Jayanth19524-161b22?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://img.shields.io/badge/Oracle_Cloud-Certified_Architect-161b22?style=flat-square&logo=oracle&logoColor=f85149" alt="OCI Certified" />
+  <a href="mailto:gandhamjayanth27@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/g-v-s-jayanth-4a7a8b195/">LinkedIn</a> ·
+  Oracle Cloud Infrastructure Certified Architect
 </p>
 
-### Experience
+<img src="./assets/h-exp.svg" width="100%" alt="01 Experience" />
+<img src="./assets/experience.svg" width="100%" alt="Epsilon (Software Engineer II, Feb 2026 to now); JoyzAI (Full Stack Developer, Mar to Sep 2025); TakeMe2Space (Software Engineer, Oct 2024 to Jan 2025); ZetaOpt (Junior Software Engineer, Jun 2023 to Oct 2024); TransGraph Consulting (Programmer Analyst Intern, Feb to May 2023)" />
 
-<div align="center">
-  <img src="./assets/career-timeline.svg" width="100%" alt="Work Experience — Epsilon, JoyzAI, TakeMe2Space, ZetaOpt, TransGraph" />
-</div>
+<img src="./assets/h-proj.svg" width="100%" alt="02 Projects" />
 
-### Selected Work
+- **[facechain-verify](https://github.com/Jayanth19524/facechain-verify)**: face verification pipeline using InsightFace, with on-chain attestations.
+- **[ats-npm-1](https://github.com/Jayanth19524/ats-npm-1)**: resume parsing and candidate ranking.
+- **[Placements-portal](https://github.com/Jayanth19524/Placements-portal)**: placements portal built for Mahindra University.
+- **[binary-tree-visualizer-](https://github.com/Jayanth19524/binary-tree-visualizer-)**: interactive binary tree visualizer in TypeScript.
+- **[distributed-systems-assignment4](https://github.com/Jayanth19524/distributed-systems-assignment4)**: Lamport and vector clocks over MPI and sockets.
 
-<div align="center">
-  <img src="./assets/projects-hud.svg" width="100%" alt="Selected Engineering Projects" />
-</div>
+<img src="./assets/h-stack.svg" width="100%" alt="03 Stack" />
 
-### Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,ts,js,nodejs,express,react,angular,python,cpp,cs,dotnet,django,mongodb,postgres,mysql,docker,kubernetes,aws,azure,gcp,git,opencv&perline=12&theme=dark" alt="Tech Stack" />
-</p>
-
-### Contributions
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jayanth19524/Jayanth19524/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Graph" />
-</p>
+**Backend:** Java, Spring Boot, Node.js, Python, C++, C#/.NET, Django  
+**Frontend:** TypeScript, React, Angular  
+**Data:** PostgreSQL, MySQL, MongoDB  
+**Infra:** Docker, Kubernetes, AWS, Azure, GCP, OCI

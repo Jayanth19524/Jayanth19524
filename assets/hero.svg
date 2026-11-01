@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260"><defs>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".035"/></pattern>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#00e5ff" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="900" height="260" fill="#0b0d14"/><rect width="900" height="260" fill="url(#grid)"/>
+<path d="M8,8 L870,8 L892,30 L892,252 L30,252 L8,230 Z" fill="#11141f" stroke="#00e5ff" stroke-opacity=".5" stroke-width="1.5"/>
+<path d="M8,60 V30 L30,8 H90" fill="none" stroke="#fcee0a" stroke-width="3"/>
+<path d="M892,200 V230 L870,252 H810" fill="none" stroke="#ff2e88" stroke-width="3"/>
+<text x="48" y="62" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#fcee0a" letter-spacing="3">SOFTWARE ENGINEER II  //  EPSILON  //  BENGALURU</text>
+<g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800" font-size="76" letter-spacing="1">
+<text x="52" y="146" fill="#ff2e88" opacity=".85">G V S JAYANTH</text>
+<text x="46" y="142" fill="#00e5ff" opacity=".85">G V S JAYANTH</text>
+<text x="49" y="144" fill="#e6e9f2">G V S JAYANTH</text></g>
+<text x="49" y="190" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#e6e9f2">I build distributed backends and cloud infrastructure.</text>
+<text x="49" y="218" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8a90a6">Previously: AI agents &amp; MCP servers, satellite telemetry, aviation backends.</text>
+<rect width="900" height="260" fill="url(#scan)"/></svg>

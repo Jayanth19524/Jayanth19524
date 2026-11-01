@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380"><rect width="900" height="380" fill="#0b0d14"/><path d="M8,8 L880,8 L892,20 L892,72 L20,72 L8,60 Z" fill="#11141f" stroke="#ff2e88" stroke-opacity="0.9"/>
+<rect x="8" y="20" width="4" height="40" fill="#ff2e88"/>
+<text x="30" y="36" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#e6e9f2">Software Engineer II</text>
+<text x="30" y="56" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#ff2e88">Epsilon · Bengaluru</text>
+<text x="880" y="36" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8a90a6" letter-spacing="2">FEB 2026 — NOW</text>
+<text x="880" y="56" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8a90a6">Software infrastructure, distributed backend systems, enterprise full-stack.</text>
+<path d="M8,82 L880,82 L892,94 L892,146 L20,146 L8,134 Z" fill="#11141f" stroke="#00e5ff" stroke-opacity="0.35"/>
+<rect x="8" y="94" width="4" height="40" fill="#00e5ff"/>
+<text x="30" y="110" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#e6e9f2">Full Stack Developer</text>
+<text x="30" y="130" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#00e5ff">JoyzAI · Noida</text>
+<text x="880" y="110" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8a90a6" letter-spacing="2">MAR 2025 — SEP 2025</text>
+<text x="880" y="130" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8a90a6">Production AI agent workflows, RAG pipelines and MCP servers.</text>
+<path d="M8,156 L880,156 L892,168 L892,220 L20,220 L8,208 Z" fill="#11141f" stroke="#00e5ff" stroke-opacity="0.35"/>
+<rect x="8" y="168" width="4" height="40" fill="#00e5ff"/>
+<text x="30" y="184" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#e6e9f2">Software Engineer</text>
+<text x="30" y="204" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#00e5ff">TakeMe2Space · Hyderabad</text>
+<text x="880" y="184" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8a90a6" letter-spacing="2">OCT 2024 — JAN 2025</text>
+<text x="880" y="204" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8a90a6">Satellite firmware interfaces, ground-station telemetry parsers, mission control.</text>
+<path d="M8,230 L880,230 L892,242 L892,294 L20,294 L8,282 Z" fill="#11141f" stroke="#00e5ff" stroke-opacity="0.35"/>
+<rect x="8" y="242" width="4" height="40" fill="#00e5ff"/>
+<text x="30" y="258" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#e6e9f2">Junior Software Engineer</text>
+<text x="30" y="278" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#00e5ff">ZetaOpt · Hyderabad</text>
+<text x="880" y="258" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8a90a6" letter-spacing="2">JUN 2023 — OCT 2024</text>
+<text x="880" y="278" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8a90a6">CAE aviation backend in Java/Spring Boot, React frontends, automated deploys.</text>
+<path d="M8,304 L880,304 L892,316 L892,368 L20,368 L8,356 Z" fill="#11141f" stroke="#00e5ff" stroke-opacity="0.35"/>
+<rect x="8" y="316" width="4" height="40" fill="#00e5ff"/>
+<text x="30" y="332" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#e6e9f2">Programmer Analyst Intern</text>
+<text x="30" y="352" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#00e5ff">TransGraph Consulting · Hyderabad</text>
+<text x="880" y="332" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8a90a6" letter-spacing="2">FEB 2023 — MAY 2023</text>
+<text x="880" y="352" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8a90a6">Algorithms, relational modeling, data processing pipelines.</text>
+</svg>
