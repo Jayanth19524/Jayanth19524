@@ -1,93 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 245" width="100%" height="245">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 410" width="100%" height="410">
   <defs>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="1"/>
+    <linearGradient id="tlLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="30%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#30363d"/>
     </linearGradient>
-    <filter id="nodeGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
     <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .header { font-size: 13px; fill: #00ff41; font-weight: 700; letter-spacing: 1.5px; }
-      .year { font-size: 13px; fill: #00f0ff; font-weight: 700; }
-      .org { font-size: 13.5px; fill: #e6edf3; font-weight: 700; }
-      .role { font-size: 11px; fill: #8b949e; }
-      .box { fill: #09131e; stroke: #1b2e44; stroke-width: 1; rx: 6px; }
-      .box-active { fill: #0b1b24; stroke: #00ff41; stroke-width: 1.4; rx: 6px; }
-      .pulse-ring { animation: ringPulse 2s ease-out infinite; }
-      @keyframes ringPulse {
-        0% { r: 7px; opacity: 1; }
-        100% { r: 18px; opacity: 0; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .sec-title { font-size: 13px; font-weight: 600; fill: #8b949e; letter-spacing: 0.5px; }
+      .role-title { font-size: 15px; font-weight: 600; fill: #f0f6fc; }
+      .company { font-size: 15px; font-weight: 500; fill: #58a6ff; }
+      .date { font-size: 12px; fill: #8b949e; }
+      .loc { font-size: 12px; fill: #6e7681; }
+      .desc { font-size: 12.5px; fill: #8b949e; }
+      .chip { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+      .chip-active { fill: #122117; stroke: #2ea043; stroke-opacity: 0.5; stroke-width: 1; }
+      .chip-text { font-size: 11px; fill: #c9d1d9; }
+      .chip-text-active { font-size: 11px; fill: #3fb950; font-weight: 500; }
+      .pulse { animation: pulseRing 2.4s ease-out infinite; }
+      @keyframes pulseRing {
+        0% { r: 5px; opacity: 0.9; }
+        100% { r: 13px; opacity: 0; }
       }
     </style>
   </defs>
 
-  <rect width="900" height="245" rx="10" fill="#05080d" stroke="#162436" stroke-width="1.5"/>
+  <rect width="900" height="410" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
 
-  <text x="24" y="28" class="mono header">❯ git log --graph --oneline --career-trajectory</text>
-  <text x="876" y="28" text-anchor="end" class="mono" font-size="11" fill="#00f0ff">HEAD -&gt; main (2026)</text>
-  <line x1="20" y1="40" x2="880" y2="40" stroke="#1a2c42" stroke-width="1"/>
+  <!-- Timeline Vertical Connector -->
+  <line x1="44" y1="48" x2="44" y2="365" stroke="url(#tlLine)" stroke-width="2"/>
 
-  <!-- Main Timeline Track -->
-  <line x1="75" y1="115" x2="825" y2="115" stroke="url(#lineGrad)" stroke-width="3"/>
-
-  <!-- Animated Signal Packet Moving Along Timeline -->
-  <circle cx="75" cy="115" r="4.5" fill="#00ff41" filter="url(#nodeGlow)">
-    <animate attributeName="cx" from="75" to="825" dur="5s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Node 1: 2022 -->
-  <g transform="translate(95, 115)">
-    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00f0ff" stroke-width="2.5"/>
-    <text x="0" y="-18" text-anchor="middle" class="mono year">2022</text>
-    <rect x="-75" y="18" width="150" height="78" class="box"/>
-    <text x="0" y="40" text-anchor="middle" class="sans org">DS Legends</text>
-    <text x="0" y="58" text-anchor="middle" class="sans role">Mobile Apps Dev</text>
-    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#58a6ff">[APP_ENG]</text>
+  <!-- 1. Epsilon (Feb 2026 - Present) -->
+  <g transform="translate(44, 48)">
+    <circle class="pulse" cx="0" cy="0" r="5" fill="none" stroke="#3fb950" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="5" fill="#3fb950"/>
+    <text x="24" y="5" class="sans">
+      <tspan class="role-title">Software Engineer II</tspan>
+      <tspan class="desc" dx="6">·</tspan>
+      <tspan class="company" dx="6">Epsilon</tspan>
+      <tspan class="loc" dx="8">· Full-time · Bengaluru, India (Hybrid)</tspan>
+    </text>
+    <text x="820" y="5" text-anchor="end" class="mono date" style="fill:#3fb950">Feb 2026 – Present</text>
+    <text x="24" y="27" class="sans desc">Software infrastructure, distributed backend systems, and enterprise full-stack engineering.</text>
+    <g transform="translate(24, 36)">
+      <rect x="0" y="0" width="136" height="20" rx="10" class="chip-active"/>
+      <text x="68" y="14" text-anchor="middle" class="sans chip-text-active">Software Infrastructure</text>
+      <rect x="144" y="0" width="128" height="20" rx="10" class="chip"/>
+      <text x="208" y="14" text-anchor="middle" class="sans chip-text">Distributed Systems</text>
+      <rect x="280" y="0" width="110" height="20" rx="10" class="chip"/>
+      <text x="335" y="14" text-anchor="middle" class="sans chip-text">Cloud Platforms</text>
+    </g>
   </g>
 
-  <!-- Node 2: 2023 -->
-  <g transform="translate(272, 115)">
-    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00f0ff" stroke-width="2.5"/>
-    <text x="0" y="-18" text-anchor="middle" class="mono year">2023</text>
-    <rect x="-78" y="18" width="156" height="78" class="box"/>
-    <text x="0" y="40" text-anchor="middle" class="sans org">ZetaOpt</text>
-    <text x="0" y="58" text-anchor="middle" class="sans role">CAE Aviation Backend</text>
-    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#58a6ff">[AERO_SYSTEMS]</text>
+  <!-- 2. JoyzAI (Mar 2025 - Sep 2025) -->
+  <g transform="translate(44, 128)">
+    <circle cx="0" cy="0" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <text x="24" y="5" class="sans">
+      <tspan class="role-title">Full Stack Developer</tspan>
+      <tspan class="desc" dx="6">·</tspan>
+      <tspan class="company" dx="6">JoyzAI</tspan>
+      <tspan class="loc" dx="8">· Full-time · Noida, India (On-site)</tspan>
+    </text>
+    <text x="820" y="5" text-anchor="end" class="mono date">Mar 2025 – Sep 2025 · 7 mos</text>
+    <text x="24" y="27" class="sans desc">Built production AI agent workflows, Retrieval-Augmented Generation (RAG) pipelines, and MCP servers.</text>
+    <g transform="translate(24, 36)">
+      <rect x="0" y="0" width="76" height="20" rx="10" class="chip"/>
+      <text x="38" y="14" text-anchor="middle" class="sans chip-text">AI Agents</text>
+      <rect x="84" y="0" width="54" height="20" rx="10" class="chip"/>
+      <text x="111" y="14" text-anchor="middle" class="sans chip-text">RAG</text>
+      <rect x="146" y="0" width="92" height="20" rx="10" class="chip"/>
+      <text x="192" y="14" text-anchor="middle" class="sans chip-text">MCP Servers</text>
+      <rect x="246" y="0" width="116" height="20" rx="10" class="chip"/>
+      <text x="304" y="14" text-anchor="middle" class="sans chip-text">Node.js &amp; React</text>
+    </g>
   </g>
 
-  <!-- Node 3: 2024 -->
-  <g transform="translate(450, 115)">
-    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00ff41" stroke-width="2.5"/>
-    <text x="0" y="-18" text-anchor="middle" class="mono year">2024</text>
-    <rect x="-80" y="18" width="160" height="78" class="box"/>
-    <text x="0" y="40" text-anchor="middle" class="sans org">TakeMe2Space</text>
-    <text x="0" y="58" text-anchor="middle" class="sans role">Satellite Firmware</text>
-    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#00ff41">[SPACE_TELEMETRY]</text>
+  <!-- 3. TakeMe2Space (Oct 2024 - Jan 2025) -->
+  <g transform="translate(44, 208)">
+    <circle cx="0" cy="0" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <text x="24" y="5" class="sans">
+      <tspan class="role-title">Software Engineer</tspan>
+      <tspan class="desc" dx="6">·</tspan>
+      <tspan class="company" dx="6">TakeMe2Space</tspan>
+      <tspan class="loc" dx="8">· Full-time · Hyderabad, India (On-site)</tspan>
+    </text>
+    <text x="820" y="5" text-anchor="end" class="mono date">Oct 2024 – Jan 2025 · 4 mos</text>
+    <text x="24" y="27" class="sans desc">Developed satellite firmware interfaces, ground-station telemetry parsers, and mission control software.</text>
+    <g transform="translate(24, 36)">
+      <rect x="0" y="0" width="116" height="20" rx="10" class="chip"/>
+      <text x="58" y="14" text-anchor="middle" class="sans chip-text">Satellite Telemetry</text>
+      <rect x="124" y="0" width="110" height="20" rx="10" class="chip"/>
+      <text x="179" y="14" text-anchor="middle" class="sans chip-text">Firmware &amp; C++</text>
+      <rect x="242" y="0" width="114" height="20" rx="10" class="chip"/>
+      <text x="299" y="14" text-anchor="middle" class="sans chip-text">Mission Systems</text>
+    </g>
   </g>
 
-  <!-- Node 4: 2025 -->
-  <g transform="translate(628, 115)">
-    <circle cx="0" cy="0" r="6" fill="#05080d" stroke="#00ff41" stroke-width="2.5"/>
-    <text x="0" y="-18" text-anchor="middle" class="mono year">2025</text>
-    <rect x="-80" y="18" width="160" height="78" class="box"/>
-    <text x="0" y="40" text-anchor="middle" class="sans org">JoyzAI + OCI Cert</text>
-    <text x="0" y="58" text-anchor="middle" class="sans role">AI Agents &amp; MCP Infra</text>
-    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#ffb800">[OCI_ARCHITECT]</text>
+  <!-- 4. ZetaOpt (Jun 2023 - Oct 2024) -->
+  <g transform="translate(44, 288)">
+    <circle cx="0" cy="0" r="4.5" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <text x="24" y="5" class="sans">
+      <tspan class="role-title">Junior Software Engineer</tspan>
+      <tspan class="desc" dx="6">·</tspan>
+      <tspan class="company" dx="6">ZetaOpt</tspan>
+      <tspan class="loc" dx="8">· Full-time · Hyderabad, India</tspan>
+    </text>
+    <text x="820" y="5" text-anchor="end" class="mono date">Jun 2023 – Oct 2024 · 1 yr 5 mos</text>
+    <text x="24" y="27" class="sans desc">Engineered CAE aviation backend services, React frontends, and automated production deployments.</text>
+    <g transform="translate(24, 36)">
+      <rect x="0" y="0" width="72" height="20" rx="10" class="chip"/>
+      <text x="36" y="14" text-anchor="middle" class="sans chip-text">React.js</text>
+      <rect x="80" y="0" width="114" height="20" rx="10" class="chip"/>
+      <text x="137" y="14" text-anchor="middle" class="sans chip-text">Java / Spring Boot</text>
+      <rect x="202" y="0" width="138" height="20" rx="10" class="chip"/>
+      <text x="271" y="14" text-anchor="middle" class="sans chip-text">Production Deployment</text>
+    </g>
   </g>
 
-  <!-- Node 5: 2026 (Active) -->
-  <g transform="translate(805, 115)">
-    <circle class="pulse-ring" cx="0" cy="0" r="7" fill="none" stroke="#00ff41" stroke-width="2"/>
-    <circle cx="0" cy="0" r="7" fill="#00ff41" filter="url(#nodeGlow)"/>
-    <text x="0" y="-18" text-anchor="middle" class="mono year" style="fill:#00ff41">2026 ●</text>
-    <rect x="-78" y="18" width="156" height="78" class="box-active"/>
-    <text x="0" y="40" text-anchor="middle" class="sans org" style="fill:#00ff41">FaceChain Verify</text>
-    <text x="0" y="58" text-anchor="middle" class="sans role" style="fill:#c9d1d9">AI + CV + Web3 Core</text>
-    <text x="0" y="75" text-anchor="middle" class="mono" font-size="10" fill="#00ff41">[ACTIVE_BUILD]</text>
+  <!-- 5. TransGraph Consulting (Feb 2023 - May 2023) -->
+  <g transform="translate(44, 365)">
+    <circle cx="0" cy="0" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="2"/>
+    <text x="24" y="5" class="sans">
+      <tspan class="role-title">Programmer Analyst Intern</tspan>
+      <tspan class="desc" dx="6">·</tspan>
+      <tspan class="company" dx="6" style="fill:#c9d1d9">TransGraph Consulting Pvt. Ltd.</tspan>
+      <tspan class="loc" dx="8">· Hyderabad, India</tspan>
+    </text>
+    <text x="820" y="5" text-anchor="end" class="mono date">Feb 2023 – May 2023 · 4 mos</text>
+    <text x="24" y="26" class="sans desc">Algorithms, relational database modeling, and data processing pipelines.</text>
   </g>
 </svg>

@@ -1,149 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="100%" height="350">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="260">
   <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070d15"/>
-      <stop offset="100%" stop-color="#0b1522"/>
-    </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ff41"/>
-      <stop offset="100%" stop-color="#00f0ff"/>
-    </linearGradient>
     <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .header { font-size: 13px; fill: #00ff41; font-weight: 700; letter-spacing: 1.5px; }
-      .card { fill: url(#cardBg); stroke: #1a2c42; stroke-width: 1.2; rx: 8px; }
-      .card-title { font-size: 16px; font-weight: 700; fill: #e6edf3; }
-      .pid { font-size: 11px; fill: #00f0ff; font-weight: 600; }
-      .desc { font-size: 12px; fill: #8b949e; }
-      .tag-bg { fill: #0d1f2d; stroke: #00f0ff; stroke-width: 0.8; stroke-opacity: 0.5; rx: 4px; }
-      .tag-txt { font-size: 10.5px; fill: #00f0ff; font-weight: 600; }
-      .status-txt { font-size: 10.5px; fill: #00ff41; font-weight: 700; }
-      .pulse-1 { animation: pulse 1.6s ease-in-out infinite; }
-      .pulse-2 { animation: pulse 2.2s ease-in-out infinite; }
-      .bar-anim-1 { animation: loadPulse 3s ease-in-out infinite; }
-      .bar-anim-2 { animation: loadPulse 4s ease-in-out infinite; }
-      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
-      @keyframes loadPulse { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.5; } }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .card { fill: #0d1117; stroke: #21262d; stroke-width: 1; }
+      .title { font-size: 15px; font-weight: 600; fill: #58a6ff; }
+      .desc { font-size: 12.5px; fill: #8b949e; }
+      .lang { font-size: 11.5px; fill: #8b949e; }
+      .badge { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+      .badge-txt { font-size: 10.5px; fill: #8b949e; font-weight: 500; }
     </style>
   </defs>
 
-  <rect width="900" height="350" rx="10" fill="#05080d" stroke="#162436" stroke-width="1.5"/>
+  <!-- Card 1: FaceChain Verify -->
+  <g transform="translate(0, 0)">
+    <rect width="440" height="120" rx="10" class="card"/>
+    <!-- Repo Icon -->
+    <path transform="translate(20, 20)" fill="#8b949e" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    <text x="44" y="33" class="sans title">FaceChain Verify</text>
+    <rect x="356" y="18" width="64" height="20" rx="10" class="badge"/>
+    <text x="388" y="32" text-anchor="middle" class="sans badge-txt">Featured</text>
 
-  <!-- Top Bar -->
-  <text x="24" y="28" class="mono header">❯ htop --filter="ACTIVE_SYSTEMS_AND_PROJECTS" --sort=PRIORITY</text>
-  <text x="876" y="28" text-anchor="end" class="mono" font-size="11" fill="#8b949e">THREADS: 4 ACTIVE // 0 ZOMBIE</text>
-  <line x1="20" y1="40" x2="880" y2="40" stroke="#1a2c42" stroke-width="1"/>
+    <text x="20" y="58" class="sans desc">Facial verification &amp; reverse image discovery pipeline using</text>
+    <text x="20" y="76" class="sans desc">InsightFace, OpenCV, and cryptographic blockchain attestations.</text>
 
-  <!-- CARD 1: FaceChain Verify -->
-  <g transform="translate(20, 54)">
-    <rect width="420" height="132" class="card"/>
-    <rect x="0" y="0" width="4" height="132" rx="2" fill="#00ff41"/>
-    <text x="18" y="24" class="mono pid">PID: 1001 // BIOMETRIC_WEB3_CORE</text>
-    <circle class="pulse-1" cx="342" cy="20" r="4" fill="#00ff41"/>
-    <text x="352" y="24" class="mono status-txt">RUNNING</text>
-
-    <text x="18" y="50" class="sans card-title">FaceChain Verify</text>
-    <text x="18" y="70" class="sans desc">AI face verification, reverse image discovery &amp; evidence</text>
-    <text x="18" y="86" class="sans desc">engine anchored with on-chain blockchain attestations.</text>
-
-    <!-- Tags -->
-    <g transform="translate(18, 98)" class="mono">
-      <rect x="0" y="0" width="86" height="20" class="tag-bg"/>
-      <text x="43" y="14" text-anchor="middle" class="tag-txt">InsightFace</text>
-
-      <rect x="94" y="0" width="64" height="20" class="tag-bg"/>
-      <text x="126" y="14" text-anchor="middle" class="tag-txt">OpenCV</text>
-
-      <rect x="166" y="0" width="84" height="20" class="tag-bg"/>
-      <text x="208" y="14" text-anchor="middle" class="tag-txt">Blockchain</text>
-
-      <rect x="258" y="0" width="108" height="20" class="tag-bg"/>
-      <text x="312" y="14" text-anchor="middle" class="tag-txt">Reverse Search</text>
-    </g>
+    <circle cx="26" cy="100" r="5" fill="#3572A5"/>
+    <text x="36" y="104" class="sans lang">Python · InsightFace · OpenCV · Web3</text>
   </g>
 
-  <!-- CARD 2: MCP Agent Platform -->
-  <g transform="translate(460, 54)">
-    <rect width="420" height="132" class="card"/>
-    <rect x="0" y="0" width="4" height="132" rx="2" fill="#00f0ff"/>
-    <text x="18" y="24" class="mono pid">PID: 1002 // AGENTIC_INFRASTRUCTURE</text>
-    <circle class="pulse-2" cx="342" cy="20" r="4" fill="#00ff41"/>
-    <text x="352" y="24" class="mono status-txt">RUNNING</text>
+  <!-- Card 2: MCP Agent & RAG Platform -->
+  <g transform="translate(460, 0)">
+    <rect width="440" height="120" rx="10" class="card"/>
+    <path transform="translate(20, 20)" fill="#8b949e" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    <text x="44" y="33" class="sans title">MCP Agent &amp; RAG Platform</text>
+    <rect x="356" y="18" width="64" height="20" rx="10" class="badge"/>
+    <text x="388" y="32" text-anchor="middle" class="sans badge-txt">AI Infra</text>
 
-    <text x="18" y="50" class="sans card-title">MCP Agent Platform</text>
-    <text x="18" y="70" class="sans desc">Production Model Context Protocol servers, multi-agent</text>
-    <text x="18" y="86" class="sans desc">orchestration, tool integrations &amp; real-time event pipelines.</text>
+    <text x="20" y="58" class="sans desc">Model Context Protocol (MCP) tool servers, multi-agent</text>
+    <text x="20" y="76" class="sans desc">orchestration, and low-latency RAG retrieval workflows.</text>
 
-    <!-- Tags -->
-    <g transform="translate(18, 98)" class="mono">
-      <rect x="0" y="0" width="88" height="20" class="tag-bg"/>
-      <text x="44" y="14" text-anchor="middle" class="tag-txt">MCP Servers</text>
-
-      <rect x="96" y="0" width="80" height="20" class="tag-bg"/>
-      <text x="136" y="14" text-anchor="middle" class="tag-txt">LangChain</text>
-
-      <rect x="184" y="0" width="88" height="20" class="tag-bg"/>
-      <text x="228" y="14" text-anchor="middle" class="tag-txt">LLM Agents</text>
-
-      <rect x="280" y="0" width="88" height="20" class="tag-bg"/>
-      <text x="324" y="14" text-anchor="middle" class="tag-txt">Node / TS</text>
-    </g>
+    <circle cx="26" cy="100" r="5" fill="#3178c6"/>
+    <text x="36" y="104" class="sans lang">TypeScript · LangChain · Node.js · RAG</text>
   </g>
 
-  <!-- CARD 3: Satellite Ground Station Parser -->
-  <g transform="translate(20, 202)">
-    <rect width="420" height="132" class="card"/>
-    <rect x="0" y="0" width="4" height="132" rx="2" fill="#00f0ff"/>
-    <text x="18" y="24" class="mono pid">PID: 1003 // ORBITAL_TELEMETRY</text>
-    <circle class="pulse-2" cx="342" cy="20" r="4" fill="#00ff41"/>
-    <text x="352" y="24" class="mono status-txt">RUNNING</text>
+  <!-- Card 3: Satellite Ground Station Parser -->
+  <g transform="translate(0, 140)">
+    <rect width="440" height="120" rx="10" class="card"/>
+    <path transform="translate(20, 20)" fill="#8b949e" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    <text x="44" y="33" class="sans title">Satellite Ground Station Parser</text>
+    <rect x="356" y="18" width="64" height="20" rx="10" class="badge"/>
+    <text x="388" y="32" text-anchor="middle" class="sans badge-txt">Systems</text>
 
-    <text x="18" y="50" class="sans card-title">Satellite Ground Station Parser</text>
-    <text x="18" y="70" class="sans desc">High-reliability satellite telemetry ingestion, binary frame</text>
-    <text x="18" y="86" class="sans desc">decoding, firmware diagnostics &amp; mission control analytics.</text>
+    <text x="20" y="58" class="sans desc">High-throughput satellite telemetry ingestion, binary frame</text>
+    <text x="20" y="76" class="sans desc">decoding, and real-time mission health diagnostics.</text>
 
-    <!-- Tags -->
-    <g transform="translate(18, 98)" class="mono">
-      <rect x="0" y="0" width="82" height="20" class="tag-bg"/>
-      <text x="41" y="14" text-anchor="middle" class="tag-txt">Space-Tech</text>
-
-      <rect x="90" y="0" width="76" height="20" class="tag-bg"/>
-      <text x="128" y="14" text-anchor="middle" class="tag-txt">Telemetry</text>
-
-      <rect x="174" y="0" width="84" height="20" class="tag-bg"/>
-      <text x="216" y="14" text-anchor="middle" class="tag-txt">C++ / Java</text>
-
-      <rect x="266" y="0" width="96" height="20" class="tag-bg"/>
-      <text x="314" y="14" text-anchor="middle" class="tag-txt">Mission Ops</text>
-    </g>
+    <circle cx="26" cy="100" r="5" fill="#f34b7d"/>
+    <text x="36" y="104" class="sans lang">C++ · Java · Embedded Telemetry</text>
   </g>
 
-  <!-- CARD 4: ATS Resume Engine & Placements Portal -->
-  <g transform="translate(460, 202)">
-    <rect width="420" height="132" class="card"/>
-    <rect x="0" y="0" width="4" height="132" rx="2" fill="#00ff41"/>
-    <text x="18" y="24" class="mono pid">PID: 1004 // NLP_SEARCH_ENGINE</text>
-    <circle class="pulse-1" cx="342" cy="20" r="4" fill="#00ff41"/>
-    <text x="352" y="24" class="mono status-txt">RUNNING</text>
+  <!-- Card 4: ATS Resume Engine -->
+  <g transform="translate(460, 140)">
+    <rect width="440" height="120" rx="10" class="card"/>
+    <path transform="translate(20, 20)" fill="#8b949e" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    <text x="44" y="33" class="sans title">ATS Resume Engine &amp; Placements Portal</text>
+    <rect x="356" y="18" width="64" height="20" rx="10" class="badge"/>
+    <text x="388" y="32" text-anchor="middle" class="sans badge-txt">Full-Stack</text>
 
-    <text x="18" y="50" class="sans card-title">ATS Resume Engine &amp; Placements Core</text>
-    <text x="18" y="70" class="sans desc">NLP document parsing, semantic candidate matching, automated</text>
-    <text x="18" y="86" class="sans desc">ranking pipelines &amp; full-stack enterprise placement workflows.</text>
+    <text x="20" y="58" class="sans desc">NLP document parsing, semantic candidate matching, automated</text>
+    <text x="20" y="76" class="sans desc">ranking pipelines, and full-stack placement management.</text>
 
-    <!-- Tags -->
-    <g transform="translate(18, 98)" class="mono">
-      <rect x="0" y="0" width="88" height="20" class="tag-bg"/>
-      <text x="44" y="14" text-anchor="middle" class="tag-txt">NLP / LLM</text>
-
-      <rect x="96" y="0" width="108" height="20" class="tag-bg"/>
-      <text x="150" y="14" text-anchor="middle" class="tag-txt">Semantic Search</text>
-
-      <rect x="212" y="0" width="68" height="20" class="tag-bg"/>
-      <text x="246" y="14" text-anchor="middle" class="tag-txt">Python</text>
-
-      <rect x="288" y="0" width="86" height="20" class="tag-bg"/>
-      <text x="331" y="14" text-anchor="middle" class="tag-txt">Spring/Django</text>
-    </g>
+    <circle cx="26" cy="100" r="5" fill="#b07219"/>
+    <text x="36" y="104" class="sans lang">Java · Spring Boot · Python · Django</text>
   </g>
 </svg>
