@@ -8,7 +8,7 @@
 
 <img src="./assets/trajectory.svg" width="100%" alt="Career trajectory: Epsilon, Software Engineer II (Feb 2026 to now); JoyzAI, Full Stack Developer (Mar to Sep 2025); TakeMe2Space, Software Engineer (Oct 2024 to Jan 2025); ZetaOpt, Junior Software Engineer (Jun 2023 to Oct 2024); TransGraph Consulting, Programmer Analyst Intern (Feb to May 2023)." />
 
-<img src="./assets/skills.svg" width="100%" alt="Skills graph. Frontend: TypeScript, React, Angular. AI and systems: LLM agents, RAG, MCP, computer vision, distributed systems, telemetry. Infra: Docker, Kubernetes, AWS, Azure, GCP, OCI. Data: PostgreSQL, MySQL, MongoDB. Backend: Java, Spring Boot, Node.js, Python, C++, C#/.NET, Django." />
+<a href="https://jayanth19524.github.io/Jayanth19524/"><img src="./assets/skills.svg" width="100%" alt="Skills graph. Frontend: TypeScript, React, Angular. AI and systems: LLM agents, RAG, MCP, computer vision, distributed systems, telemetry. Infra: Docker, Kubernetes, AWS, Azure, GCP, OCI. Data: PostgreSQL, MySQL, MongoDB. Backend: Java, Spring Boot, Node.js, Python, C++, C#/.NET, Django." /></a>
 
 <img src="./assets/l-proj.svg" width="100%" alt="Selected work" />
 
