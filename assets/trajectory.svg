@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 532" width="900" height="532">
+<style>.ring{animation:ping 2.4s ease-out infinite;transform-origin:52px 92px}@keyframes ping{from{transform:scale(1);opacity:.8}to{transform:scale(3);opacity:0}}</style>
+<rect x=".5" y=".5" width="899" height="531" rx="14" fill="#0a0a0d" stroke="#1e1e26"/>
+<text x="48" y="38" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8b96" letter-spacing="3">TRAJECTORY  /  2023 → NOW</text>
+<path d="M52,460 V368 V276 V184 V92" fill="none" stroke="#1e1e26" stroke-width="3"/>
+<path d="M52,460 V368 V276 V184 V92" fill="none" stroke="#fcee0a" stroke-opacity=".5" stroke-width="2"/>
+<circle r="3.5" fill="#fcee0a"><animateMotion dur="5s" repeatCount="indefinite" path="M52,460 V368 V276 V184 V92"/></circle>
+<circle cx="52" cy="92" r="7" fill="#fcee0a" stroke="#fcee0a" stroke-width="2"/>
+<circle cx="52" cy="92" r="7" fill="none" stroke="#fcee0a" class="ring"/>
+<text x="90" y="88" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#f4f4f5">Software Engineer II</text>
+<text x="90" y="108" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#fcee0a">Epsilon<tspan fill="#8b8b96"> · Bengaluru</tspan></text>
+<text x="90" y="128" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b8b96">Software infrastructure, distributed backend systems, enterprise full-stack.</text>
+<text x="868" y="88" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8b96">Feb 2026 – now</text>
+<rect x="798" y="98" width="70" height="6" rx="3" fill="#fcee0a" fill-opacity="1"/>
+<text x="868" y="124" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b8b96">10 mo</text>
+<circle cx="52" cy="184" r="5" fill="#0a0a0d" stroke="#fcee0a" stroke-width="2"/>
+
+<text x="90" y="180" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#f4f4f5">Full Stack Developer</text>
+<text x="90" y="200" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#fcee0a">JoyzAI<tspan fill="#8b8b96"> · Noida</tspan></text>
+<text x="90" y="220" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b8b96">Production AI agent workflows, RAG pipelines and MCP servers.</text>
+<text x="868" y="180" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8b96">Mar – Sep 2025</text>
+<rect x="819" y="190" width="49" height="6" rx="3" fill="#fcee0a" fill-opacity="0.45"/>
+<text x="868" y="216" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b8b96">7 mo</text>
+<circle cx="52" cy="276" r="5" fill="#0a0a0d" stroke="#fcee0a" stroke-width="2"/>
+
+<text x="90" y="272" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#f4f4f5">Software Engineer</text>
+<text x="90" y="292" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#fcee0a">TakeMe2Space<tspan fill="#8b8b96"> · Hyderabad</tspan></text>
+<text x="90" y="312" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b8b96">Satellite firmware interfaces, ground-station telemetry parsers, mission control.</text>
+<text x="868" y="272" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8b96">Oct 2024 – Jan 2025</text>
+<rect x="840" y="282" width="28" height="6" rx="3" fill="#fcee0a" fill-opacity="0.45"/>
+<text x="868" y="308" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b8b96">4 mo</text>
+<circle cx="52" cy="368" r="5" fill="#0a0a0d" stroke="#fcee0a" stroke-width="2"/>
+
+<text x="90" y="364" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#f4f4f5">Junior Software Engineer</text>
+<text x="90" y="384" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#fcee0a">ZetaOpt<tspan fill="#8b8b96"> · Hyderabad</tspan></text>
+<text x="90" y="404" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b8b96">CAE aviation backend in Java and Spring Boot, React frontends, automated deploys.</text>
+<text x="868" y="364" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8b96">Jun 2023 – Oct 2024</text>
+<rect x="749" y="374" width="119" height="6" rx="3" fill="#fcee0a" fill-opacity="0.45"/>
+<text x="868" y="400" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b8b96">17 mo</text>
+<circle cx="52" cy="460" r="5" fill="#0a0a0d" stroke="#fcee0a" stroke-width="2"/>
+
+<text x="90" y="456" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#f4f4f5">Programmer Analyst Intern</text>
+<text x="90" y="476" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#fcee0a">TransGraph Consulting<tspan fill="#8b8b96"> · Hyderabad</tspan></text>
+<text x="90" y="496" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b8b96">Algorithms, relational modeling, data processing pipelines.</text>
+<text x="868" y="456" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8b96">Feb – May 2023</text>
+<rect x="840" y="466" width="28" height="6" rx="3" fill="#fcee0a" fill-opacity="0.45"/>
+<text x="868" y="492" text-anchor="end" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b8b96">4 mo</text>
+</svg>

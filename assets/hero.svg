@@ -1,16 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260"><defs>
-<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".035"/></pattern>
-<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#00e5ff" stroke-opacity=".06"/></pattern>
-</defs>
-<rect width="900" height="260" fill="#0b0d14"/><rect width="900" height="260" fill="url(#grid)"/>
-<path d="M8,8 L870,8 L892,30 L892,252 L30,252 L8,230 Z" fill="#11141f" stroke="#00e5ff" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M8,60 V30 L30,8 H90" fill="none" stroke="#fcee0a" stroke-width="3"/>
-<path d="M892,200 V230 L870,252 H810" fill="none" stroke="#ff2e88" stroke-width="3"/>
-<text x="48" y="62" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#fcee0a" letter-spacing="3">SOFTWARE ENGINEER II  //  EPSILON  //  BENGALURU</text>
-<g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800" font-size="76" letter-spacing="1">
-<text x="52" y="146" fill="#ff2e88" opacity=".85">G V S JAYANTH</text>
-<text x="46" y="142" fill="#00e5ff" opacity=".85">G V S JAYANTH</text>
-<text x="49" y="144" fill="#e6e9f2">G V S JAYANTH</text></g>
-<text x="49" y="190" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#e6e9f2">I build distributed backends and cloud infrastructure.</text>
-<text x="49" y="218" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8a90a6">Previously: AI agents &amp; MCP servers, satellite telemetry, aviation backends.</text>
-<rect width="900" height="260" fill="url(#scan)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 290" width="900" height="290">
+<style>.p{stroke-dasharray:10 90;animation:run 3.2s linear infinite}@keyframes run{from{stroke-dashoffset:10}to{stroke-dashoffset:-90}}.b{animation:blink 1.4s steps(1) infinite}@keyframes blink{50%{opacity:0}}</style>
+<rect x=".5" y=".5" width="899" height="289" rx="14" fill="#0a0a0d" stroke="#1e1e26"/>
+<path d="M900,70 H760 L730,100 H640 L610,130 H560" fill="none" stroke="#fcee0a" stroke-opacity=".22" stroke-width="1.5"/><path d="M900,120 H800 L770,150 H700" fill="none" stroke="#fcee0a" stroke-opacity=".22" stroke-width="1.5"/><path d="M900,175 H830 L800,205 H720 L690,235 H620 L600,255" fill="none" stroke="#fcee0a" stroke-opacity=".22" stroke-width="1.5"/><path d="M900,225 H860 L840,245 H780" fill="none" stroke="#fcee0a" stroke-opacity=".22" stroke-width="1.5"/><path d="M900,30 H820 L800,50 H720" fill="none" stroke="#fcee0a" stroke-opacity=".22" stroke-width="1.5"/><circle cx="560" cy="130" r="4" fill="#0a0a0d" stroke="#fcee0a" stroke-opacity=".5" stroke-width="1.5"/><circle cx="700" cy="150" r="4" fill="#0a0a0d" stroke="#fcee0a" stroke-opacity=".5" stroke-width="1.5"/><circle cx="600" cy="255" r="4" fill="#0a0a0d" stroke="#fcee0a" stroke-opacity=".5" stroke-width="1.5"/><circle cx="780" cy="245" r="4" fill="#0a0a0d" stroke="#fcee0a" stroke-opacity=".5" stroke-width="1.5"/><circle cx="720" cy="50" r="4" fill="#0a0a0d" stroke="#fcee0a" stroke-opacity=".5" stroke-width="1.5"/><path d="M900,70 H760 L730,100 H640 L610,130 H560" fill="none" stroke="#fcee0a" stroke-width="2" stroke-linecap="round" pathLength="100" class="p"/>
+<g font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b8b96" letter-spacing="2"><text x="48" y="64">G V S JAYANTH  ·  BENGALURU, IN</text></g>
+<text x="46" y="150" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="84" font-weight="800" letter-spacing="-3" fill="#f4f4f5">Jayanth</text>
+<rect x="48" y="172" width="64" height="4" fill="#fcee0a"/>
+<text x="48" y="214" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#f4f4f5">Software Engineer II at Epsilon.</text>
+<text x="48" y="242" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#8b8b96">Distributed backends and cloud infrastructure.<tspan class="b" fill="#fcee0a"> _</tspan></text>
+</svg>
