@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 40" width="230" height="40">
+<rect x=".5" y=".5" width="229" height="39" rx="10" fill="#0a0a0d" stroke="#1e1e26"/>
+<rect x="14" y="14" width="8" height="12" rx="2" fill="#fcee0a"/>
+<text x="32" y="25" font-family="'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b8b96" letter-spacing="2">OCI</text>
+<text x="67.8" y="25" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#f4f4f5">Certified Architect</text></svg>
